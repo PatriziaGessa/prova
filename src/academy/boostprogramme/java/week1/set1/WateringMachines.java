@@ -12,8 +12,8 @@ public class WateringMachines {
         int priceEachWateringMachines = 20;
         int discount = 20;
         int discountPrice = (priceEachWateringMachines * discount) / 100;
-        double newPriceWithDiscount = priceEachWateringMachines - discountPrice;
-        double finalCost = numberOfWateringMachinesToBuy * newPriceWithDiscount;
+        int newPriceWithDiscount = priceEachWateringMachines - discountPrice;
+        int finalCost = numberOfWateringMachinesToBuy * newPriceWithDiscount;
 
     System.out.println(finalCost);
 
