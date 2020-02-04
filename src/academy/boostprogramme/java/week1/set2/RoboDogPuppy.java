@@ -19,7 +19,7 @@ public class RoboDogPuppy {
         System.out.println("Woof food do I get today?");
             int food = scanner.nextInt();
             // click on IntelliJ terminal and enter number
-         //   int food = 1;
+           //  int food = 1;
             int numbOfJumps = calculateJumps(food);
             int numbOfBarks = calculateBarks(food);
         System.out.println("I will jump " + numbOfJumps + " times and bark " + numbOfBarks + " times!");
