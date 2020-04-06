@@ -11,13 +11,9 @@ public class DoubleListMinimumFinder {
         if(numbers.isEmpty()) {
             return Optional.empty();
         }
-
         List<Double> sortNumbers = new ArrayList<>(numbers);
         Collections.sort(sortNumbers);
-
         double smaller = sortNumbers.get(0);
-
         return Optional.of(smaller);
-
     }
 }

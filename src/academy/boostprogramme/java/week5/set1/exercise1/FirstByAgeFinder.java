@@ -9,13 +9,12 @@ public class FirstByAgeFinder {
         if(people.isEmpty()) {
             return Optional.empty();
         }
-
         for(Person person : people) {
             if(person.getAge() == age) {
                 return Optional.of(person);
             }
         }
-
         return Optional.empty();
     }
+
 }

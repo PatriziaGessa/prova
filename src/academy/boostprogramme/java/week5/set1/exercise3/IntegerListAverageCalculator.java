@@ -9,14 +9,11 @@ public class IntegerListAverageCalculator {
         if(numbers.isEmpty()) {
             return Optional.empty();
         }
-
         int total = 0;
         for(int numb : numbers) {
             total += numb;
         }
-
         double average = total / numbers.size();
-
         return Optional.of(average);
     }
 }

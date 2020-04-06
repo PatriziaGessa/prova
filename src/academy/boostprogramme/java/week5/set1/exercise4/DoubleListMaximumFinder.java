@@ -11,13 +11,10 @@ public class DoubleListMaximumFinder {
         if(numbers.isEmpty()) {
             return Optional.empty();
         }
-
         List<Double> sortNumber = new ArrayList<>(numbers);
         Collections.sort(sortNumber);
         Collections.reverse(sortNumber);
-
         double bigger = sortNumber.get(0);
-
         return Optional.of(bigger);
     }
 }
