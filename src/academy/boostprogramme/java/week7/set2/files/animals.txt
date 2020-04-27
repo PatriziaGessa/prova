@@ -1,0 +1,5 @@
+serpente
+scimmia
+Gallina
+Toro
+Sogliola
